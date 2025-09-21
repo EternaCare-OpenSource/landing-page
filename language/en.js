@@ -1,0 +1,65 @@
+// English (en.js)
+const translationsEN = {
+    carelink: "CareLink",
+    nav_home: "Home",
+    nav_about: "About",
+    nav_premium: "Premium",
+    nav_contact: "Contact",
+    btn_login: "Log In",
+
+    hero_title: "Technology with a human touch, for the well-being of those you love most.",
+    hero_subtitle: "CareLink provides peace of mind to families and optimizes the work of caregivers through a platform that is always connected, always caring.",
+    btn_view_plans: "View Plans",
+    btn_learn_more: "Learn More",
+
+    about_title: "How CareLink Transforms Care",
+    feature1_title: "Real-Time Monitoring",
+    feature1_desc: "Access vital records, mood, and daily activities instantly. Peace of mind in the palm of your hand.",
+    feature2_title: "Personalized Alerts",
+    feature2_desc: "Receive immediate notifications about important health changes or emergencies for complete reassurance.",
+    feature3_title: "Direct Communication",
+    feature3_desc: "Strengthen the bond with your loved ones and coordinate with caregivers through a secure and efficient channel.",
+
+    testimonials_title: "The Trust of Our Families",
+    testimonial1_quote: `"CareLink gave us our peace of mind back. Being miles away and able to see how my mother is doing every day is priceless. The alerts give me immense security."`,
+    testimonial1_author_title: "Daughter and CareLink user",
+    testimonial2_quote: `"As a caregiver, the app has saved me hours of paperwork. Recording everything from my phone is incredibly efficient and allows me to spend more time with the residents."`,
+    testimonial2_author_title: "Nurse at Geriatric Center",
+
+    pricing_title: "Plans Designed for Every Need",
+    plan1_title: "Connected Family",
+    plan_monthly: "/month",
+    plan1_feature1: "Daily updates",
+    plan1_feature2: "Direct messaging",
+    plan1_feature3: "30-day history",
+    btn_choose_plan: "Choose Plan",
+
+    plan2_title: "Premium Family",
+    plan2_feature1: "All Connected features",
+    plan2_feature2: "Real-time alerts",
+    plan2_feature3: "Integrated video calls",
+    plan2_feature4: "Advanced reports",
+
+    plan3_title: "Comprehensive Center",
+    plan3_price: "Contact us",
+    plan3_feature1: "All Premium features",
+    plan3_feature2: "Admin Dashboard",
+    plan3_feature3: "Staff management",
+    plan3_feature4: "IoT Integration",
+    btn_contact_us: "Contact Us",
+
+    contact_title: "Request a Personalized Demo",
+    contact_subtitle: "Discover how CareLink can provide the peace of mind you're looking for. Our team will contact you shortly.",
+    form_name: "Full Name",
+    form_email: "Email Address",
+    form_message: "Tell us a bit about your needs...",
+    btn_send_request: "Send Request",
+
+    footer_by: "by EternaCare",
+    footer_nav: "Navigation",
+    footer_legal: "Legal",
+    footer_terms: "Terms of Service",
+    footer_privacy: "Privacy Policy",
+    footer_contact: "Contact",
+    footer_copyright: "© 2025 EternaCare. All rights reserved."
+};
