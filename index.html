@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!-- El idioma por defecto es inglés -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO y Meta Tags -->
+    <title>CareLink – Technology for the well-being of seniors</title>
+    <meta name="description" content="CareLink, EternaCare's digital solution, connects caregivers and families to improve the quality of life for seniors with reliable, real-time information.">
+    <meta name="keywords" content="EternaCare, CareLink, senior care, digital health, wellness, monitoring, family communication, medical appointments, health reports">
+    <meta name="author" content="EternaCare Team">
+
+    <!-- Google Fonts: Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome para Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Enlace a la Hoja de Estilos externa -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <a href="#hero" class="logo">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L1 9.78V22h22V9.78L12 2zm0 2.44L19.53 9.78H4.47L12 4.44zM4 11.64h16V20H4v-8.36zm8 2.36c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+            </svg>
+            <h1 data-key="carelink">CareLink</h1>
+        </a>
+        <button class="mobile-menu-btn" aria-label="Open menu"><i class="fas fa-bars"></i></button>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#hero" data-key="nav_home">Home</a></li>
+                <li><a href="#about" data-key="nav_about">About</a></li>
+                <li><a href="#premium" data-key="nav_premium">Premium</a></li>
+                <li><a href="#contact" data-key="nav_contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cta-buttons">
+            <a href="#" class="btn btn-secondary" data-key="btn_login">Log In</a>
+            <button id="language-switcher" class="btn btn-outline">ES</button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h2 data-key="hero_title">Technology with a human touch, for the well-being of those you love most.</h2>
+            <p data-key="hero_subtitle">CareLink provides peace of mind to families and optimizes the work of caregivers through a platform that is always connected, always caring.</p>
+            <div class="hero-cta">
+                <a href="#premium" class="btn btn-primary" data-key="btn_view_plans">View Plans</a>
+                <a href="#about" class="btn btn-secondary" data-key="btn_learn_more">Learn More</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://placehold.co/1000x500/E1F5FE/0056A6?text=Family+Connecting+Remotely" alt="Family connecting with a senior through CareLink's technology">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title" data-key="about_title">How CareLink Transforms Care</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-heart-pulse"></i></div>
+                    <h3 data-key="feature1_title">Real-Time Monitoring</h3>
+                    <p data-key="feature1_desc">Access vital records, mood, and daily activities instantly. Peace of mind in the palm of your hand.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-bell"></i></div>
+                    <h3 data-key="feature2_title">Personalized Alerts</h3>
+                    <p data-key="feature2_desc">Receive immediate notifications about important health changes or emergencies for complete reassurance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-comments"></i></div>
+                    <h3 data-key="feature3_title">Direct Communication</h3>
+                    <p data-key="feature3_desc">Strengthen the bond with your loved ones and coordinate with caregivers through a secure and efficient channel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-key="testimonials_title">The Trust of Our Families</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial">
+                        <p class="testimonial-quote" data-key="testimonial1_quote">"CareLink gave us our peace of mind back. Being miles away and able to see how my mother is doing every day is priceless. The alerts give me immense security."</p>
+                        <div class="testimonial-author">
+                            <img src="https://placehold.co/100x100/A9E3F4/333333?text=LS" alt="Photo of Laura S.">
+                            <!-- CORRECCIÓN: Se añade la clase "author-info" -->
+                            <div class="author-info">
+                                <p class="author-name">Laura S.</p>
+                                <p class="author-title" data-key="testimonial1_author_title">Daughter and CareLink user</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial">
+                        <p class="testimonial-quote" data-key="testimonial2_quote">"As a caregiver, the app has saved me hours of paperwork. Recording everything from my phone is incredibly efficient and allows me to spend more time with the residents."</p>
+                        <div class="testimonial-author">
+                            <img src="https://placehold.co/100x100/A9E3F4/333333?text=MJ" alt="Photo of Miguel J.">
+                            <!-- CORRECCIÓN: Se añade la clase "author-info" -->
+                            <div class="author-info">
+                                <p class="author-name">Miguel J.</p>
+                                <p class="author-title" data-key="testimonial2_author_title">Nurse at Geriatric Center</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="carousel-btn prev-btn" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots"></div>
+                <button class="carousel-btn next-btn" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Section (Pricing) -->
+    <section id="premium">
+        <div class="container">
+            <h2 class="section-title" data-key="pricing_title">Plans Designed for Every Need</h2>
+            <div class="pricing-grid">
+                <div class="plan-card">
+                    <h3 class="plan-title" data-key="plan1_title">Connected Family</h3>
+                    <p class="plan-price">$15<span data-key="plan_monthly">/month</span></p>
+                    <ul class="plan-features">
+                        <li data-key="plan1_feature1"><i class="fas fa-check"></i>Daily updates</li>
+                        <li data-key="plan1_feature2"><i class="fas fa-check"></i>Direct messaging</li>
+                        <li data-key="plan1_feature3"><i class="fas fa-check"></i>30-day history</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary" data-key="btn_choose_plan">Choose Plan</a>
+                </div>
+                <div class="plan-card recommended">
+                    <h3 class="plan-title" data-key="plan2_title">Premium Family</h3>
+                    <p class="plan-price">$25<span data-key="plan_monthly">/month</span></p>
+                    <ul class="plan-features">
+                        <li data-key="plan2_feature1"><i class="fas fa-check"></i>All Connected features</li>
+                        <li data-key="plan2_feature2"><i class="fas fa-check"></i>Real-time alerts</li>
+                        <li data-key="plan2_feature3"><i class="fas fa-check"></i>Integrated video calls</li>
+                        <li data-key="plan2_feature4"><i class="fas fa-check"></i>Advanced reports</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary" data-key="btn_choose_plan">Choose Plan</a>
+                </div>
+                <div class="plan-card">
+                    <h3 class="plan-title" data-key="plan3_title">Comprehensive Center</h3>
+                    <p class="plan-price" data-key="plan3_price">Contact us<span></span></p>
+                    <ul class="plan-features">
+                        <li data-key="plan3_feature1"><i class="fas fa-check"></i>All Premium features</li>
+                        <li data-key="plan3_feature2"><i class="fas fa-check"></i>Admin Dashboard</li>
+                        <li data-key="plan3_feature3"><i class="fas fa-check"></i>Staff management</li>
+                        <li data-key="plan3_feature4"><i class="fas fa-check"></i>IoT Integration</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary" data-key="btn_contact_us">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title" data-key="contact_title">Request a Personalized Demo</h2>
+            <p data-key="contact_subtitle">Discover how CareLink can provide the peace of mind you're looking for. Our team will contact you shortly.</p>
+            <form class="contact-form">
+                <input type="text" data-key="form_name" placeholder="Full Name" required>
+                <input type="email" data-key="form_email" placeholder="Email Address" required>
+                <textarea data-key="form_message" placeholder="Tell us a bit about your needs..." rows="4"></textarea>
+                <button type="submit" class="btn btn-primary" data-key="btn_send_request">Send Request</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>CareLink</h3>
+                <p data-key="footer_by">by EternaCare</p>
+            </div>
+            <div class="footer-column">
+                <h4 data-key="footer_nav">Navigation</h4>
+                <ul>
+                    <li><a href="#hero" data-key="nav_home">Home</a></li>
+                    <li><a href="#about" data-key="nav_about">About</a></li>
+                    <li><a href="#premium" data-key="nav_premium">Premium</a></li>
+                    <li><a href="#contact" data-key="nav_contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4 data-key="footer_legal">Legal</h4>
+                <ul>
+                    <li><a href="#" data-key="footer_terms">Terms of Service</a></li>
+                    <li><a href="#" data-key="footer_privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4 data-key="footer_contact">Contact</h4>
+                <p>Lima, Peru</p>
+                <p>info@eternacare.pe</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-key="footer_copyright">&copy; 2025 EternaCare. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts JS -->
+<script src="./language/en.js"></script>
+<script src="./language/es.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
+
