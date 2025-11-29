@@ -144,6 +144,19 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         }
     }
+    /**
+     * ------------------------------------------------------------------------
+     * MODULE: Contact Form Redirect
+     * @description Redirects the demo request button to the provided destination.
+     * ------------------------------------------------------------------------
+     */
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+            window.location.href = 'https://carlink-bb7c8.web.app';
+        });
+    }
 
     /**
      * ------------------------------------------------------------------------

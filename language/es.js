@@ -3,6 +3,7 @@ const translationsES = {
     carelink: "CareLink",
     nav_home: "Inicio",
     nav_about: "Nosotros",
+    nav_video: "Video", 
     nav_premium: "Premium",
     nav_contact: "Contacto",
     btn_login: "Iniciar Sesión",
@@ -56,6 +57,11 @@ const translationsES = {
     result3_desc: "Permisos por rol, registros verificados y bitácoras exportables preparan al centro para auditorías.",
     result3_metric: "100% trazabilidad",
     result3_metric_note: "en eventos críticos de salud.",
+
+    video_badge: "Recorrido del producto",
+    video_title: "Video sobre el producto",
+    video_description: "Mira cómo funciona CareLink en la práctica con un recorrido guiado de la experiencia para familias, cuidadores y administradores.",
+    video_note: "Actualizaremos este video con la demo final de la tesis; puedes reemplazar el enlace cuando esté listo.",
 
     testimonials_title: "La Confianza de Nuestras Familias",
     testimonial1_quote: `"CareLink nos devolvió la paz. Estar a kilómetros y poder ver cómo está mi madre cada día no tiene precio. Las alertas me dan una seguridad inmensa."`,

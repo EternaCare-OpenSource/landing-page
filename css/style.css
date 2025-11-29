@@ -58,6 +58,10 @@ section {
     margin-bottom: calc(var(--spacing-base) * 6); /* 48px */
 }
 
+.section-title.left {
+    text-align: left;
+}
+
 /* --- Buttons --- */
 .btn {
     display: inline-block;
@@ -408,6 +412,54 @@ header .container {
     color: #4d5a68;
 }
 
+.section-subtitle.left {
+    text-align: left;
+}
+
+#product-video {
+    background: var(--gris-claro-fondo);
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 32px;
+    align-items: center;
+}
+
+.video-copy {
+    display: grid;
+    gap: 12px;
+}
+
+.video-note {
+    font-size: 0.95rem;
+    color: var(--placeholder);
+}
+
+.video-embed {
+    width: 100%;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+    background: #000;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 .results-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -749,7 +801,7 @@ footer {
     .about-layout { grid-template-columns: 1fr; }
     .hero-stats { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
     .timeline-step { grid-template-columns: 1fr; text-align: left; }
-    
+
     .nav-menu {
         display: none;
         flex-direction: column;
